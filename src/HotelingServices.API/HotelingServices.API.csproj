@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HotelingServices.Core\HotelingServices.Core.csproj" />
+    <ProjectReference Include="..\HotelingServices.Infrastructure\HotelingServices.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
